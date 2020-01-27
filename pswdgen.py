@@ -10,8 +10,8 @@ import string, random
 # string '0123456789'
 
 weak = string.ascii_letters
-med = string.ascii_letters + string.punctuation
-strong = string.ascii_letters + string.punctuation + string.digits
+med = string.ascii_letters + string.digits
+strong = string.ascii_letters + string.digits + string.punctuation
 
 # function that generates password. Takes arguments for strength,
 # which is user input, and size, which is decided based on
